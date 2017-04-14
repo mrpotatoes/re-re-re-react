@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle re-re-re-react",
+        "command": "re-re-re-react:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "re-re-re-react",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "re-re-re-react:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+".source.js":
+  "use strict":
+    prefix: "us"
+    body: "'use strict';"
+  "alert":
+    "prefix": "al"
+    "body": """
+    alert('${1:msg}');
+    """

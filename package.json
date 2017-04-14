@@ -1,0 +1,62 @@
+{
+  "name": "re-re-re-react",
+  "main": "./lib/re-re-re-react",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "re-re-re-react:toggle"
+  },
+  "repository": "https://github.com/atom/re-re-re-react",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "package-deps": [
+    "atom-beautify",
+    "atom-ternjs",
+    "busy-signal",
+    "config-import-export",
+    "cucumber-autocomplete",
+    "docblockr",
+    "duplicate-line-or-selection",
+    "emmet",
+    "emmet-simplified",
+    "emmet-snippets-compatibility",
+    "emmet-snippets-compatibility-but-less-extreme",
+    "expand-region",
+    "file-icons",
+    "floobits",
+    "git-control",
+    "git-plus",
+    "git-time-machine",
+    "highlight-line",
+    "highlight-selected",
+    "hyperclick",
+    "intentions",
+    "js-hyperclick",
+    "language-babel",
+    "language-gherkin",
+    "language-lisp",
+    "language-patch",
+    "linter",
+    "linter-eslint",
+    "linter-ui-default",
+    "local-history",
+    "markdown-preview-plus",
+    "merge-conflicts",
+    "modular-snippets",
+    "pigments",
+    "platformio-ide-terminal",
+    "project-plus",
+    "re-re-re-react",
+    "react",
+    "split-diff",
+    "sync-settings",
+    "term3",
+    "todo-show"
+  ]
+}

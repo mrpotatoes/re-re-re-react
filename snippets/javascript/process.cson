@@ -1,0 +1,105 @@
+".source.js":
+  "process.abort()":
+    prefix: "process.abort()"
+    body: "process.abort();"
+  "process.arch":
+    prefix: "process.arch"
+    body: "process.arch"
+  "process.argv":
+    prefix: "process.argv"
+    body: "process.argv"
+  "process.chdir()":
+    prefix: "process.chdir"
+    body: "process.chdir('${1:name}');"
+  "process.config":
+    prefix: "process.config"
+    body: "process.config"
+  "process.connected":
+    prefix: "process.connected"
+    body: "process.connected"
+  "process.cwd()":
+    prefix: "process.cwd"
+    body: "process.cwd()"
+  "process.disconnect()":
+    prefix: "process.disconnect"
+    body: "process.disconnect();"
+  "process.env":
+    prefix: "process.env"
+    body: "process.env"
+  "process.emitWarning()":
+    prefix: "process.emitWarning"
+    body: "process.emitWarning('${1:processname}');"
+  "process.on()":
+    prefix: "process.on"
+    body: """
+        process.on(${1:name}, (${2:name}) => {
+
+        });
+    """
+  "process.execArgv":
+    prefix: "process.execArgv"
+    body: "process.execArgv"
+  "process.execPath":
+    prefix: "process.execPath"
+    body: "process.execPath"
+  "process.exit()":
+    prefix: "process.exit"
+    body: "process.exit(${1:code});"
+  "process.exitCode":
+    prefix: "process.exitCode"
+    body: "process.exitCode"
+  "process.hrtime()":
+    prefix: "process.hrtime()"
+    body: "process.hrtime(${1:time})"
+  "process.kill()":
+    prefix: "process.kill"
+    body: "process.kill(${1:code})"
+  "process.mainModule":
+    prefix: "process.mainModule"
+    body: "process.mainModule"
+  "process.memoryUsage()":
+    prefix: "process.memoryUsage"
+    body: "process.memoryUsage()"
+  "process.nextTick":
+    prefix: "process.nextTick"
+    body: """
+        process.nextTick((${1:args}) => {
+          ${2:start}
+        });
+    """
+  "process.pid":
+    prefix: "process.pid"
+    body: "process.pid"
+  "process.platform":
+    prefix: "process.platform"
+    body: "process.platform"
+  "process.release":
+    prefix: "process.release"
+    body: "process.release"
+  "process.send()":
+    prefix: "process.send"
+    body: "process.send(${1:message})"
+  "process.stderr":
+    prefix: "process.stderr"
+    body: "process.stderr"
+  "process.stdin":
+    prefix: "process.stdin"
+    body: "process.stdin"
+  "process.stdout":
+    prefix: "process.stdout"
+    body: "process.stdout"
+  "process.title":
+    prefix: "process.title"
+    body: "process.title"
+  "process.unmask()":
+    prefix: "process.unmask"
+    body: "process.unmask(${1:name})"
+  "process.uptime()":
+    prefix: "process.uptime"
+    body: "process.uptime()"
+  "process.version":
+    prefix: "process.version"
+    body: "process.version"
+  "process.versions":
+    prefix: "process.versions"
+    body: "process.versions"
