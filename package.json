@@ -13,7 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "*"
+    "atom-package-deps": "https://github.com/steelbrain/package-deps"
   },
   "package-deps": [
     "atom-beautify",
