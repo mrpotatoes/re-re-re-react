@@ -1,10 +1,9 @@
 {
   "name": "re-re-re-react",
   "main": "./lib/re-re-re-react",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "re-re-re-react:toggle"
   },
@@ -13,8 +12,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "package-deps": [
     "atom-beautify",
     "atom-ternjs",
