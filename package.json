@@ -1,14 +1,14 @@
 {
   "name": "re-re-re-react",
   "main": "./lib/re-re-re-react",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A short description of your package",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "re-re-re-react:toggle"
   },
-  "repository": "https://github.com/atom/re-re-re-react",
+  "repository": "http://github.com/mrpotatoes/re-re-re-react",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
