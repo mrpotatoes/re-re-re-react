@@ -1,9 +1,10 @@
 {
   "name": "re-re-re-react",
   "main": "./lib/re-re-re-react",
-  "version": "2.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "1.0.0",
+  "description": "Test",
+  "private": false,
+  "keywords": ["javascript", "react"],
   "activationCommands": {
     "atom-workspace": "re-re-re-react:toggle"
   },
@@ -14,6 +15,19 @@
   },
   "dependencies": {
     "event-kit": "^2.2.0",
+    "glob": "3",
+    "loophole": "^1.1.0",
+    "minimatch": "^3.0.3",
+    "node-uuid": "1.4.7",
+    "resolve-from": "^2.0.0",
+    "tern": "^0.21.0",
+    "underscore-plus": "^1.6.6",
+    "uuid": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "babel-eslint": "6.0.5",
+    "eslint-plugin-babel": "3.3.0"
   },
   "package-deps": [
     "atom-beautify",
