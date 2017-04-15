@@ -8,9 +8,6 @@
     "javascript",
     "react"
   ],
-  "activationCommands": {
-    "atom-workspace": "re-re-re-react:toggle"
-  },
   "repository": "http://github.com/mrpotatoes/re-re-re-react",
   "license": "MIT",
   "engines": {
