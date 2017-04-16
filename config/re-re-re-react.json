@@ -1,0 +1,8 @@
+{
+  "debug-mode": {
+    "type": "integer",
+    "default": 42,
+    "minium": 1,
+    "maximum": 9000
+  }
+}

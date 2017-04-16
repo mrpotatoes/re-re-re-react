@@ -1,0 +1,137 @@
+{
+  "busy-signal": {
+    "itemsToShowInHistory": 5
+  },
+  "one-dark-ui": {
+    "fontSize": "Auto",
+    "layoutMode": "Auto",
+    "tabSizing": "Auto"
+  },
+  "one-light-ui": {
+    "fontSize": "Auto",
+    "layoutMode": "Auto",
+    "tabSizing": "Auto"
+  },
+  "autocomplete-plus": {
+    "enableAutoActivation": true,
+    "autoActivationDelay": 100,
+    "maxVisibleSuggestions": 10,
+    "confirmCompletion": "tab and enter",
+    "useCoreMovementCommands": true,
+    "fileBlacklist": [".*"],
+    "scopeBlacklist": [],
+    "includeCompletionsFromAllBuffers": true,
+    "strictMatching": false,
+    "minimumWordLength": 3,
+    "enableBuiltinProvider": true,
+    "builtinProviderBlacklist": ".source.gfm",
+    "backspaceTriggersAutocomplete": false,
+    "enableAutoConfirmSingleSuggestion": true,
+    "suggestionListFollows": "Word",
+    "defaultProvider": "Symbol",
+    "suppressActivationForEditorClasses": ["vim-mode.command-mode", "vim-mode.visual-mode", "vim-mode.operator-pending-mode"],
+    "consumeSuffix": true,
+    "useAlternateScoring": true,
+    "useLocalityBonus": true,
+    "enableExtendedUnicodeSupport": false
+  },
+  "autosave": {
+    "enabled": false
+  },
+  "bracket-matcher": {
+    "autocompleteCharacters": ["()", "[]", "{}", "\"\"", "''", "``", "“”", "‘’", "«»", "‹›"],
+    "pairsWithExtraNewline": ["()", "[]", "{}"],
+    "autocompleteBrackets": true,
+    "wrapSelectionsInBrackets": true
+  },
+  "command-palette": {
+    "useAlternateScoring": true,
+    "preserveLastSearch": false
+  },
+  "find-and-replace": {
+    "focusEditorAfterSearch": false,
+    "projectSearchResultsPaneSplitDirection": "none",
+    "closeFindPanelAfterSearch": false,
+    "scrollToResultOnLiveSearch": false,
+    "liveSearchMinimumCharacters": 3,
+    "showSearchWrapIcon": true
+  },
+  "fuzzy-finder": {
+    "ignoredNames": [],
+    "searchAllPanes": false,
+    "preserveLastSearch": false,
+    "useAlternateScoring": true
+  },
+  "git-diff": {
+    "showIconsInEditorGutter": false
+  },
+  "grammar-selector": {
+    "showOnRightSideOfStatusBar": true
+  },
+  "line-ending-selector": {
+    "defaultLineEnding": "OS Default"
+  },
+  "markdown-preview": {
+    "breakOnSingleNewline": false,
+    "liveUpdate": true,
+    "openPreviewInSplitPane": true,
+    "grammars": ["source.gfm", "source.litcoffee", "text.html.basic", "text.md", "text.plain", "text.plain.null-grammar"],
+    "useGitHubStyle": false
+  },
+  "notifications": {
+    "showErrorsInDevMode": false
+  },
+  "open-on-github": {
+    "includeLineNumbersInUrls": true
+  },
+  "package-generator": {
+    "createInDevMode": false,
+    "packageSyntax": "javascript"
+  },
+  "spell-check": {
+    "grammars": ["source.asciidoc", "source.gfm", "text.git-commit", "text.plain", "text.plain.null-grammar"],
+    "useLocales": true,
+    "locales": [],
+    "localePaths": [],
+    "knownWords": [],
+    "addKnownWords": false
+  },
+  "status-bar": {
+    "isVisible": true,
+    "fullWidth": true,
+    "cursorPositionFormat": "%L:%C",
+    "selectionCountFormat": "(%L, %C)"
+  },
+  "tabs": {
+    "showIcons": true,
+    "alwaysShowTabBar": true,
+    "tabScrolling": "platform",
+    "tabScrollingThreshold": 120,
+    "enableVcsColoring": false,
+    "addNewTabsAtEnd": false,
+    "enableMruTabSwitching": true
+  },
+  "tree-view": {
+    "squashDirectoryNames": false,
+    "hideVcsIgnoredFiles": false,
+    "hideIgnoredNames": false,
+    "showOnRightSide": false,
+    "sortFoldersBeforeFiles": true,
+    "autoReveal": false,
+    "focusOnReveal": true,
+    "alwaysOpenExisting": false
+  },
+  "welcome": {
+    "showOnStartup": true
+  },
+  "whitespace": {
+    "removeTrailingWhitespace": true,
+    "keepMarkdownLineBreakWhitespace": true,
+    "ignoreWhitespaceOnCurrentLine": true,
+    "ignoreWhitespaceOnlyLines": false,
+    "ensureSingleTrailingNewline": true
+  },
+  "re-re-re-react": {
+    "debug-mode": 42
+  }
+}

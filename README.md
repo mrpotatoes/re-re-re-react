@@ -21,6 +21,7 @@ There are also a few planned
 - [ ] Possibly multi-windows?
 - [ ] https://nuclide.io/docs/platforms/react-native/
 - [ ] Specs?
+- [ ] Ignore all core settings.
 
 # Planned Functionality
 - [ ] A custom webpack loader to do auto class finding (or something to the effect. Still an idea in my head nothing planned out).
