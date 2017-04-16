@@ -26,10 +26,6 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
-# This came with the package generator.
-# "atom-workspace":
-#     "ctrl-alt-o": "re-re-re-react:toggle"
-
 'atom-text-editor:not([mini])':
   'ctrl-e': 'editor:move-to-end-of-line'
   'alt-left': 'editor:move-to-previous-subword-boundary'

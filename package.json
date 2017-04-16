@@ -8,7 +8,7 @@
     "javascript",
     "react"
   ],
-  "repository": "http://github.com/mrpotatoes/re-re-re-react",
+  "repository": "https://github.com/mrpotatoes/re-re-re-react",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -31,7 +31,6 @@
     "emmet-snippets-compatibility-but-less-extreme",
     "expand-region",
     "file-icons",
-    "floobits",
     "git-control",
     "git-plus",
     "git-time-machine",
@@ -55,9 +54,7 @@
     "platformio-ide-terminal",
     "project-plus",
     "re-re-re-react",
-    "react",
     "split-diff",
-    "sync-settings",
     "term3",
     "todo-show"
   ]
