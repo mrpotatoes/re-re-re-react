@@ -32,6 +32,7 @@ This package kind of takes over your ATOM install so be warned. You may also wan
 - [ ] https://nuclide.io/docs/platforms/react-native/
 - [ ] Specs?
 - [ ] Ignore all core settings.
+- [ ] Git+ Contextual menu on tab.
 
 # Planned Functionality
 - [ ] A custom webpack loader to do auto class finding (or something to the effect. Still an idea in my head nothing planned out).
