@@ -1,7 +1,7 @@
 {
   "name": "re-re-re-react",
   "main": "./lib/index",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Test",
   "private": false,
   "keywords": [
