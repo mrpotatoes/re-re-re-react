@@ -47,3 +47,47 @@ This package kind of takes over your ATOM install so be warned. You may also wan
 * https://github.com/AtomDebugger/debugger
 * https://nuclide.io/docs/features/debugger/
 * https://medium.com/javascript-scene/must-see-javascript-dev-tools-that-put-other-dev-tools-to-shame-aca6d3e3d925
+
+### Links/Packages to give a try
+* https://atom.io/packages/git-plus
+* https://atom.io/packages/git-time-machine
+* https://atom.io/packages/merge-conflicts
+* https://atom.io/packages/atom-css-comb
+* https://atom.io/packages/css-declaration-sorter
+* https://atom.io/packages/duplicate-line-or-selection
+* https://atom.io/packages/imdone-atom
+* https://atom.io/packages/project-plus
+* https://atom.io/themes/monokai-seti
+* https://atom.io/themes/seti-ui
+* https://atom.io/packages/simple-drag-drop-text
+* https://atom.io/packages/autocomplete-modules
+* https://atom.io/packages/script
+* https://github.com/peterdotjs/atom-synced-sidebar
+* https://github.com/smonami/hacker-news-side-panel
+	* For how to make a simple side panel
+* https://github.com/aidistan/atom-symbols-view-plus
+* https://github.com/0tho/atom-nav-panel-plus
+* https://github.com/suda/tool-bar
+	* A great way to add custom toolbar stuff & plugins for my thinger.
+* https://github.com/05tb/tool-bar-basic
+* https://github.com/AlexNewson/tool-bar-basic
+* https://atom.io/packages/vital-tool-bar
+* https://atom.io/packages/tool-bar-besser
+* https://atom.io/packages/tool-bar-config
+* https://atom.io/packages/tool-bar-main
+* https://atom.io/packages/tool-bar-almighty
+* https://atom.io/packages/tool-bar-atom
+* https://github.com/iotontech/ioton-atom
+* https://github.com/VictorBjelkholm/atom-react-preview
+* https://atom.io/packages/draw-package
+* https://github.com/bhargav175/clickable-npm-scripts
+* https://github.com/ericadamski/atom-package-script-runner
+* https://github.com/jussi-kalliokoski/atom-npm-plus
+	* Abstract status panel to use elsewhere (in my code?)
+* https://atom.io/packages/vagrant
+	* Fork so that it checks for Vagrant file locally in project.
+	* Perhaps use the status panel from atom-npm-plus
+	* Add SSH (open new terminal window?)
+* https://github.com/b-connect/atom-vagrant-manager
+* https://github.com/francoislaberge/atom-diagrams
+* https://github.com/pusher/atom-pair
