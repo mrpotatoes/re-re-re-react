@@ -1,3 +1,5 @@
+rm -rf ~/.atom/packages/* ~/.atom/dev/packages/*; apm develop re-re-re-react; atom
+
 ```js
 const atomPackagePath = atom.packages.getPackageDirPaths()
 const packagePath = `${atomPackagePath}/re-re-re-react`

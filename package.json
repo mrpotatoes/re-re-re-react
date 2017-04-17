@@ -1,6 +1,6 @@
 {
   "name": "re-re-re-react",
-  "main": "./lib/index",
+  "main": "./lib/re-re-re-react",
   "version": "2.8.0",
   "description": "Test",
   "private": false,
@@ -25,8 +25,6 @@
     "atom-beautify",
     "atom-ternjs",
     "busy-signal",
-    "config-import-export",
-    "cucumber-autocomplete",
     "docblockr",
     "duplicate-line-or-selection",
     "emmet",
@@ -44,8 +42,6 @@
     "intentions",
     "js-hyperclick",
     "language-babel",
-    "language-gherkin",
-    "language-lisp",
     "language-patch",
     "linter",
     "linter-eslint",
@@ -53,12 +49,10 @@
     "local-history",
     "markdown-preview-plus",
     "merge-conflicts",
-    "modular-snippets",
     "pigments",
     "platformio-ide-terminal",
     "project-plus",
     "split-diff",
-    "term3",
     "todo-show"
   ]
 }
