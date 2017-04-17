@@ -1,137 +1,93 @@
 {
-  "busy-signal": {
-    "itemsToShowInHistory": 5
+  "atom-ternjs": {
+    "excludeLowerPriorityProviders": true,
+    "inlineFnCompletionDocumentation": true,
+    "lint": true,
+    "snippetsFirst": true,
+    "useSnippets": true,
+    "useSnippetsAndFunction": true
   },
-  "one-dark-ui": {
-    "fontSize": "Auto",
-    "layoutMode": "Auto",
-    "tabSizing": "Auto"
+  "config-import-export": {
+    "defaultPath": {}
   },
-  "one-light-ui": {
-    "fontSize": "Auto",
-    "layoutMode": "Auto",
-    "tabSizing": "Auto"
+  "core": {
+    "audioBeep": false,
+    "customFileTypes": {
+      "source.ini": [".buckconfig", ".flowconfig", ".hgrc"],
+      "source.json": [".arcconfig", "BUCK.autodeps"],
+      "source.python": ["BUCK"]
+    },
+    "disabledPackages": ["Tern", "git-control", "term3", "markdown-preview", "cucumber-autocomplete", "emmet-snippets-compatibility", "emmet-simplified", "welcome", "config-import-export", "atom-beautify", "sync-settings", "react", "emmet-snippets-compatibility-but-less-extreme", "symbols-view", "floobits"],
+    "ignoredNames": ["*.elc", ".DS_Store", "node_modules", ".vagrant"],
+    "packagesWithKeymapsDisabled": [],
+    "telemetryConsent": "limited",
+    "warnOnLargeFileLimit": 5
   },
-  "autocomplete-plus": {
-    "enableAutoActivation": true,
-    "autoActivationDelay": 100,
-    "maxVisibleSuggestions": 10,
-    "confirmCompletion": "tab and enter",
-    "useCoreMovementCommands": true,
-    "fileBlacklist": [".*"],
-    "scopeBlacklist": [],
-    "includeCompletionsFromAllBuffers": true,
-    "strictMatching": false,
-    "minimumWordLength": 3,
-    "enableBuiltinProvider": true,
-    "builtinProviderBlacklist": ".source.gfm",
-    "backspaceTriggersAutocomplete": false,
-    "enableAutoConfirmSingleSuggestion": true,
-    "suggestionListFollows": "Word",
-    "defaultProvider": "Symbol",
-    "suppressActivationForEditorClasses": ["vim-mode.command-mode", "vim-mode.visual-mode", "vim-mode.operator-pending-mode"],
-    "consumeSuffix": true,
-    "useAlternateScoring": true,
-    "useLocalityBonus": true,
-    "enableExtendedUnicodeSupport": false
+  "disable-keybindings": {},
+  "docblockr": {
+    "align_tags": "no"
   },
-  "autosave": {
-    "enabled": false
+  "editor": {
+    "invisibles": {},
+    "scrollPastEnd": true
   },
-  "bracket-matcher": {
-    "autocompleteCharacters": ["()", "[]", "{}", "\"\"", "''", "``", "“”", "‘’", "«»", "‹›"],
-    "pairsWithExtraNewline": ["()", "[]", "{}"],
-    "autocompleteBrackets": true,
-    "wrapSelectionsInBrackets": true
-  },
-  "command-palette": {
-    "useAlternateScoring": true,
-    "preserveLastSearch": false
+  "exception-reporting": {
+    "userId": "4896762c-e2e0-dcc2-25c6-9bd0ddc40d15"
   },
   "find-and-replace": {
-    "focusEditorAfterSearch": false,
-    "projectSearchResultsPaneSplitDirection": "none",
-    "closeFindPanelAfterSearch": false,
-    "scrollToResultOnLiveSearch": false,
-    "liveSearchMinimumCharacters": 3,
-    "showSearchWrapIcon": true
-  },
-  "fuzzy-finder": {
-    "ignoredNames": [],
-    "searchAllPanes": false,
-    "preserveLastSearch": false,
-    "useAlternateScoring": true
+    "focusEditorAfterSearch": true,
+    "scrollToResultOnLiveSearch": true
   },
   "git-diff": {
-    "showIconsInEditorGutter": false
+    "showIconsInEditorGutter": true
   },
-  "grammar-selector": {
-    "showOnRightSideOfStatusBar": true
+  "linter": {},
+  "linter-eslint": {},
+  "linter-jshint": {
+    "esversion": 6
   },
-  "line-ending-selector": {
-    "defaultLineEnding": "OS Default"
+  "linter-ui-default": {
+    "panelHeight": 185,
+    "showPanel": true
   },
-  "markdown-preview": {
-    "breakOnSingleNewline": false,
-    "liveUpdate": true,
-    "openPreviewInSplitPane": true,
-    "grammars": ["source.gfm", "source.litcoffee", "text.html.basic", "text.md", "text.plain", "text.plain.null-grammar"],
-    "useGitHubStyle": false
+  "local-history": {
+    "daysLimit": 5
   },
-  "notifications": {
-    "showErrorsInDevMode": false
+  "minimap": {},
+  "platformio-ide-terminal": {
+    "style": {
+      "theme": "solarized-dark"
+    },
+    "toggles": {
+      "autoClose": true,
+      "runInsertedText": false
+    }
   },
-  "open-on-github": {
-    "includeLineNumbersInUrls": true
+  "save-session": {
+    "dataSaveFolder": "/Users/alibresinn/.atom/packages/save-session/projects"
   },
-  "package-generator": {
-    "createInDevMode": false,
-    "packageSyntax": "javascript"
+  "symbols-tree-view": {
+    "autoToggle": true
   },
-  "spell-check": {
-    "grammars": ["source.asciidoc", "source.gfm", "text.git-commit", "text.plain", "text.plain.null-grammar"],
-    "useLocales": true,
-    "locales": [],
-    "localePaths": [],
-    "knownWords": [],
-    "addKnownWords": false
+  "sync-settings": {
+    "_lastBackupHash": "0937da6d068a9603513f3c8c525104663a5e2ea8",
+    "gistId": "086e2e2a6d64910f4b34073436ea14a2",
+    "personalAccessToken": "71425c2ed8c2006c2a12808e2fdaf5cbf3eac8ad"
   },
-  "status-bar": {
-    "isVisible": true,
-    "fullWidth": true,
-    "cursorPositionFormat": "%L:%C",
-    "selectionCountFormat": "(%L, %C)"
+  "term3": {
+    "openPanesInSameSplit": true
   },
-  "tabs": {
-    "showIcons": true,
-    "alwaysShowTabBar": true,
-    "tabScrolling": "platform",
-    "tabScrollingThreshold": 120,
-    "enableVcsColoring": false,
-    "addNewTabsAtEnd": false,
-    "enableMruTabSwitching": true
+  "terminal-plus": {
+    "style": {},
+    "toggles": {
+      "autoClose": true
+    }
   },
   "tree-view": {
-    "squashDirectoryNames": false,
-    "hideVcsIgnoredFiles": false,
-    "hideIgnoredNames": false,
-    "showOnRightSide": false,
-    "sortFoldersBeforeFiles": true,
-    "autoReveal": false,
-    "focusOnReveal": true,
-    "alwaysOpenExisting": false
+    "focusOnReveal": false,
+    "hideIgnoredNames": true
   },
   "welcome": {
-    "showOnStartup": true
-  },
-  "whitespace": {
-    "removeTrailingWhitespace": true,
-    "keepMarkdownLineBreakWhitespace": true,
-    "ignoreWhitespaceOnCurrentLine": true,
-    "ignoreWhitespaceOnlyLines": false,
-    "ensureSingleTrailingNewline": true
-  },
-  "re-re-re-react": {
-    "debug-mode": 42
+    "showOnStartup": false
   }
 }
