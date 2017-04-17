@@ -1,0 +1,13 @@
+{
+  "activateHyperMode": {
+    "description": "Turns the package into hyper mode.",
+    "type": "boolean",
+    "default": false
+  },
+  "setRange": {
+    "type": "integer",
+    "default": 42,
+    "minium": 1,
+    "maximum": 9000
+  }
+}
