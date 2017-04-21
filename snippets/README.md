@@ -1,1 +1,0 @@
-From: https://github.com/zenorocha/atom-javascript-snippets
