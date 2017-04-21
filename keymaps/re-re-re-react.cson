@@ -37,6 +37,7 @@
 
 'body':
   'ctrl-d': 'core:delete'
+  'alt-cmd-j': 'window:toggle-dev-tools'
 
 '.platform-darwin atom-text-editor:not([mini])':
   'ctrl-d': 'unset!'

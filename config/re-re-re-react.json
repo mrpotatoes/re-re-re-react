@@ -1,5 +1,12 @@
 {
   "debug-mode": {
+  	"description": "Debug mode.",
+    "type": "integer",
+    "default": 42,
+    "minium": 1,
+    "maximum": 9000
+  },
+  "This is something else": {
     "type": "integer",
     "default": 42,
     "minium": 1,
