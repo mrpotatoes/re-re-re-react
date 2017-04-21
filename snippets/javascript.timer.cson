@@ -1,0 +1,16 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "setInterval":
+    "prefix": "si"
+    "body": """
+    setInterval(function() {
+    \t${0:// body...}
+    }, ${1:delay});
+    """
+
+  "setTimeout":
+    "prefix": "st"
+    "body": """
+    setTimeout(function() {
+    \t${0:// body...}
+    }, ${1:delay});
+    """

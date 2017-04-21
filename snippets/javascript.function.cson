@@ -1,0 +1,52 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "function":
+    "prefix": "fn"
+    "body": """
+    function ${1:methodName} (${2:arguments}) {
+    \t${0:// body...}
+    }
+    """
+
+  "prototype":
+    "prefix": "pr"
+    "body": """
+    ${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
+    \t${0:// body...}
+    }
+    """
+
+  "function as a property of an object":
+    "prefix": "ofn"
+    "body": """
+    ${1:functionName}: function(${2:arguments}) {
+    \t${3:// body...}
+    }
+    """
+
+  "function apply":
+    "prefix": "apply"
+    "body": """
+    ${1:methodName}.apply(${2:context}, [${3:arguments}])
+    """
+
+  "immediately-invoked function expression":
+    "prefix": "iife"
+    "body": """
+    (function(${1:window}, ${2:document}) {
+    \t${0:// body...}
+    })(${1:window}, ${2:document})
+    """
+
+  "function call":
+    "prefix": "call"
+    "body": """
+    ${1:methodName}.call(${2:context}, ${3:arguments})
+    """
+
+  "anonymous function":
+    "prefix": "afn"
+    "body": """
+    function(${1:arguments}) {
+    \t${0:// body...}
+    }
+    """

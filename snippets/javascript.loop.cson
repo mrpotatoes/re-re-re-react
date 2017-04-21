@@ -1,0 +1,18 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "forEach":
+    "prefix": "fe"
+    "body": """
+    ${1:myArray}.forEach(function(${2:elem}) {
+    \t${0:// body...}
+    })
+    """
+
+  "for in":
+    "prefix": "fi"
+    "body": """
+    for (${1:prop} in ${2:obj}) {
+    \tif (${2:obj}.hasOwnProperty(${1:prop})) {
+    \t\t${0:// body...}
+    \t}
+    }
+    """

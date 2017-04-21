@@ -1,0 +1,30 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "it synchronous":
+    "prefix": "its"
+    "body": """
+    it('${1:description}', function() {
+    \t${0:// body...}
+    })
+    """
+
+  "describe":
+    "prefix": "desc"
+    "body": """
+    describe('${1:description}', function() {
+    \t${0:// body...}
+    })
+    """
+
+  "it asynchronous":
+    "prefix": "ita"
+    "body": """
+    it('${1:description}', function(done) {
+    \t${0:// body...}
+    })
+    """
+
+  "it pending":
+    "prefix": "itp"
+    "body": """
+    it('${1:description}')
+    """
