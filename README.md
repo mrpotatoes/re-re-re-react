@@ -12,8 +12,11 @@ This package kind of takes over your ATOM install so be warned. You may also wan
 ## TODO
 While I look for a new job I'm going to keep this repo silent. I do have some features that I do want to add, tho.
 
+- [ ] Add keyboard config and snippets support
+- [ ] Fix shortcuts
 - [ ] Typescript/Flow support.
 - [ ] Fix diff/patch issues.
+    * Learned, recently, that this isn't working. Need to fix.
 - [ ] Remove Emmet package (doesn't provide as much value as I would like.
 - [ ] Create an NPM runner panel
     - [ ] Ability to run any NPM script by just a click (finds your package.json)
