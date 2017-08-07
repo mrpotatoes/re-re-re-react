@@ -13,6 +13,7 @@ This package kind of takes over your ATOM install so be warned. You may also wan
 While I look for a new job I'm going to keep this repo silent. I do have some features that I do want to add, tho.
 
 - [ ] Add keyboard config and snippets support
+      * Example: https://github.com/yeojz/atom-react-snippets
 - [ ] Fix shortcuts
 - [ ] Typescript/Flow support.
 - [ ] Fix diff/patch issues.
