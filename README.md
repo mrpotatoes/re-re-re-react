@@ -19,6 +19,9 @@ While I look for a new job I'm going to keep this repo silent. I do have some fe
 - [ ] Fix diff/patch issues.
     * Learned, recently, that this isn't working. Need to fix.
 - [ ] Remove Emmet package (doesn't provide as much value as I would like.
+- [ ] Create a function list panel for JavaScript
+    - [ ] Would use Babel to read file and get/list all the methods, classes and properties in a panel that can be docked.
+    * Note to self: Learn how to use Babel.
 - [ ] Create an `npm` runner panel
     - [ ] Ability to run any `npm` script by just a click (finds your package.json)
     - [ ] Parks itself on the right side
