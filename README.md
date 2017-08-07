@@ -18,10 +18,14 @@ While I look for a new job I'm going to keep this repo silent. I do have some fe
 - [ ] Fix diff/patch issues.
     * Learned, recently, that this isn't working. Need to fix.
 - [ ] Remove Emmet package (doesn't provide as much value as I would like.
-- [ ] Create an NPM runner panel
-    - [ ] Ability to run any NPM script by just a click (finds your package.json)
+- [ ] Create an `npm` runner panel
+    - [ ] Ability to run any `npm` script by just a click (finds your package.json)
     - [ ] Parks itself on the right side
     - [ ] Add a console so that you can `--watch` your tests as you mutate the codebase.
+    - [ ] All `npm` commands should be available (install, 
+    - [ ] Allow for triggers/hooks so that you can run specific scripts on defined events (ie: file delete, `git checkout`)
+    - [ ] Allow for default triggers on startup or codebase change (ie: `git pull`) so you're always up to date with the latest packages.
+    * Would adding `eslint` functionality be a good idea?
 - [ ] Possibly bring in `js-hyperclick` to work more efficantly esp with namespaces (Webpack, Babel plugins)
 - [ ] Find a decent debugger and integrate it into this package ([Wallaby.js](https://wallabyjs.com/)? [XAtom Debug](https://atom.io/packages/xatom-debug)?)
 - [ ] Redux/React file generator
