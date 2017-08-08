@@ -1,0 +1,120 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "46315e37-accc-4312-a189-66df286f5347"
+  "atom-package-deps":
+    ignored: []
+  "atom-ternjs":
+    excludeLowerPriorityProviders: true
+    inlineFnCompletionDocumentation: true
+    lint: true
+    snippetsFirst: true
+    useSnippets: true
+    useSnippetsAndFunction: true
+  "config-import-export":
+    defaultPath: {}
+  core:
+    audioBeep: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "Tern"
+      "git-control"
+      "term3"
+      "markdown-preview"
+      "cucumber-autocomplete"
+      "emmet-snippets-compatibility"
+      "emmet-simplified"
+      "welcome"
+      "config-import-export"
+      "atom-beautify"
+      "sync-settings"
+      "react"
+      "emmet-snippets-compatibility-but-less-extreme"
+      "symbols-view"
+      "floobits"
+      "git-plus"
+      "git-time-machine"
+      "git-gui"
+    ]
+    ignoredNames: [
+      "*.elc"
+      ".DS_Store"
+      "node_modules"
+      ".vagrant"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+    warnOnLargeFileLimit: 5
+  "disable-keybindings": {}
+  docblockr:
+    align_tags: "no"
+  editor:
+    atomicSoftTabs: false
+    invisibles: {}
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "4896762c-e2e0-dcc2-25c6-9bd0ddc40d15"
+  "find-and-replace":
+    focusEditorAfterSearch: true
+    scrollToResultOnLiveSearch: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "highlight-line": {}
+  "js-hyperclick":
+    extensions: [
+      ".js"
+      ".json"
+      ".node"
+      ".jsx"
+    ]
+    jumpToImport: true
+  linter: {}
+  "linter-eslint": {}
+  "linter-jshint":
+    esversion: 6
+  "linter-ui-default":
+    hidePanelWhenEmpty: true
+    panelHeight: 69
+    tooltipFollows: "Mouse"
+  "local-history":
+    daysLimit: 5
+  minimap: {}
+  "platformio-ide-terminal":
+    style:
+      theme: "solarized-dark"
+    toggles:
+      autoClose: true
+      runInsertedText: false
+  "save-session":
+    dataSaveFolder: "/Users/alibresinn/.atom/packages/save-session/projects"
+  "symbols-tree-view":
+    autoToggle: true
+  "sync-settings":
+    _lastBackupHash: "0937da6d068a9603513f3c8c525104663a5e2ea8"
+    gistId: "086e2e2a6d64910f4b34073436ea14a2"
+    personalAccessToken: "71425c2ed8c2006c2a12808e2fdaf5cbf3eac8ad"
+  term3:
+    openPanesInSameSplit: true
+  "terminal-plus":
+    style: {}
+    toggles:
+      autoClose: true
+  "tool-bar":
+    position: "Left"
+  "tree-view":
+    focusOnReveal: false
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false

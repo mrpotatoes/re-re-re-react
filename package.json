@@ -27,10 +27,6 @@
     "busy-signal",
     "docblockr",
     "duplicate-line-or-selection",
-    "emmet",
-    "emmet-simplified",
-    "emmet-snippets-compatibility",
-    "emmet-snippets-compatibility-but-less-extreme",
     "expand-region",
     "file-icons",
     "git-control",
@@ -53,6 +49,9 @@
     "platformio-ide-terminal",
     "project-plus",
     "split-diff",
-    "todo-show"
+    "todo-show",
+    "xatom-debug",
+    "xatom-debug-chrome",
+    "xatom-debug-nodejs"
   ]
 }

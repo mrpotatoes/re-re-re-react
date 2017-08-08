@@ -12,13 +12,15 @@ This package kind of takes over your ATOM install so be warned. You may also wan
 ## TODO
 While I look for a new job I'm going to keep this repo silent. I do have some features that I do want to add, tho.
 
-- [ ] Add keyboard config and snippets support
-      * Example: https://github.com/yeojz/atom-react-snippets
-- [ ] Fix shortcuts
+- [ ] Snippets support
+  - [x] Add snippets!
+  - [ ] Make sure all snippets are ES6
+  - [ ] Is there a way to override how the settings page loads so that we can see all the snippets in there?
+- [x] Fix keybindings.
 - [ ] Typescript/Flow support.
 - [ ] Fix diff/patch issues.
     * Learned, recently, that this isn't working. Need to fix.
-- [ ] Remove Emmet package (doesn't provide as much value as I would like.
+- [x] Remove Emmet package (doesn't provide as much value as I would like.
 - [ ] Create a function list panel for JavaScript
     - [ ] Would use Babel to read file and get/list all the methods, classes and properties in a panel that can be docked.
     * Note to self: Learn how to use Babel.
@@ -26,7 +28,7 @@ While I look for a new job I'm going to keep this repo silent. I do have some fe
     - [ ] Ability to run any `npm` script by just a click (finds your package.json)
     - [ ] Parks itself on the right side
     - [ ] Add a console so that you can `--watch` your tests as you mutate the codebase.
-    - [ ] All `npm` commands should be available (install, 
+    - [ ] All `npm` commands should be available (install,
     - [ ] Allow for triggers/hooks so that you can run specific scripts on defined events (ie: file delete, `git checkout`)
     - [ ] Allow for default triggers on startup or codebase change (ie: `git pull`) so you're always up to date with the latest packages.
     * Would adding `eslint` functionality be a good idea?
@@ -35,4 +37,3 @@ While I look for a new job I'm going to keep this repo silent. I do have some fe
 - [ ] Redux/React file generator
     * I'm on the fence about this one but I think it would be useful.
     - [ ] Be able to save a cache of Redux forumlas so that clicking to and from them is easier.
- 

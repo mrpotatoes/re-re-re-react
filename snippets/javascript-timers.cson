@@ -1,0 +1,24 @@
+".source.js, .source.jsx, .source.ts, .source.js-semantic":
+  "setTimeout":
+    prefix: "st"
+    body: """
+    setTimeout(() => {
+    \t${0}
+    }, ${1:delay});
+    """
+
+  "setInterval":
+    prefix: "si"
+    body: """
+    setInterval(() => {
+    \t${0}
+    }, ${1:delay});
+    """
+
+  "setImmediate":
+    prefix: "sim"
+    body: """
+    setImmediate(() => {
+    \t${0}
+    });
+    """

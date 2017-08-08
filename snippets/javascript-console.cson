@@ -3,6 +3,10 @@
     "prefix": "cl"
     "body": "console.log(${1:obj})"
 
+  "console.log":
+    "prefix": 'log'
+    "body": "console.log('${1:title}', ${2:$1}$0)"
+
   "console.warn":
     "prefix": "cw"
     "body": "console.warn(${1:obj})"
@@ -18,4 +22,3 @@
   "console.info":
     "prefix": "ci"
     "body": "console.info(${1:obj})"
-
