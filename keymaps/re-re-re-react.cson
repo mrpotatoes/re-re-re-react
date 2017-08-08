@@ -44,15 +44,8 @@
 '.platform-darwin atom-text-editor:not([mini])':
   'ctrl-d': 'unset!'
 
-# From here: https://gist.github.com/mxstbr/361ddb22057f0a01762240be209321f0
-'atom-text-editor[data-grammar~="jsx"]:not([mini])':
-  'tab': 'emmet:expand-abbreviation-with-tab'
-
 'atom-text-editor:not(mini).autocomplete-active':
   'enter': 'autocomplete-plus:confirm'
-
-'atom-text-editor[data-grammar="text html php"]:not([mini])':
-  'tab': 'emmet:expand-abbreviation-with-tab'
 
 # Force atom/emmet to use the snippets first before emmet.
 'atom-text-editor.autocomplete-active:not([mini])':
