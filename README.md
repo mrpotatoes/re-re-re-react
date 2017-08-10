@@ -1,4 +1,5 @@
 # re-re-re-react package
+[The public github repo](https://github.com/mrpotatoes/re-re-re-react) is going to be the most up to date so check back there when you want to see what is new or up-coming.
 
 A silly name for a package that sets up your Atom editor to be a React powerhouse.
 
