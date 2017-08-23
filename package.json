@@ -1,7 +1,7 @@
 {
   "name": "re-re-re-react",
   "main": "./lib/re-re-re-react",
-  "version": "2.9.1",
+  "version": "3.0.0",
   "description": "Make Atom an editing powerhouse for React.",
   "private": false,
   "keywords": [
